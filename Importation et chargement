@@ -1,0 +1,9 @@
+# IMPORTATION DES PACKAGES
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# CHARGEONS LES DONNÉES 
+df=pd.read_csv("world_population.csv")
+df.head(9)
